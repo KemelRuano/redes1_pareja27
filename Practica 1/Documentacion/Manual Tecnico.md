@@ -1,14 +1,9 @@
-# Universidad de San Carlos de Guatemala
-# Facultad de Ingenieria
-# Escuela de Ciencias y Sistemas
-# Laboratorio de redes de computadoras 1 
-## Practica 1
 
-## Manual Técnico
+# Manual Técnico
 
-### Sección 1: Navegando por las Direcciones IP 🖧
+## Sección 1: Navegando por las Direcciones IP 🖧
 
-Tabla descriptiva de dispositivos:
+Tabla descriptiva de dispositivos para red de servicio de courier:
 
 |Dispositivo ⚙️ |Dirección IP 🔍|Direccion MAC 🔗   |Máscara de Subred 🎭|Nivel 🎚️|Area 📍|
 |----------------|:-------------:|:-----------------:|:--------------------:|--------|--------|
@@ -34,9 +29,9 @@ Tabla descriptiva de dispositivos:
 |💻 VPC 19      |192.168.27.24  |00:50:79:66:68:10   |255.255.255.0       |Tercer nivel |Operaciones           |
 
 
-### Sección 2: Hardware necesario para Implementacion 🖧
+## Sección 2: Hardware necesario para Implementacion 🚀
 
-Echemos un vistazo a los brillantes componentes que forman esta red intergaláctica:
+Componentes de Hardware indispensables para realizacion fisica de la instalacion de la red simulada (Marca y modelo pueden cambiar segun se ajusten a los requerimientos o presupuestos).
 
 - 🌐 **Router Principal:**
   - Marca: Linksys
@@ -139,11 +134,11 @@ Echemos un vistazo a los brillantes componentes que forman esta red intergaláct
         - Tipo de montaje: Window Mount     
 
 
-### Sección 3: Configuración de las VPCs 💻
+## Sección 3: Configuración de las VPCs 💻
 
-¡Ahora configuremos las VPCs para un viaje sin problemas a través de los niveles estelares!
+Ejemplo de configuracion de VPCs segun nivel por medio de comandos.
 
-#### VPC Nivel 1 
+### VPC Nivel 1 
 - Paso 1 - Asignar direccion IP:
     - Ingresar a la maquina VPC1
     - Ingresar Comando: ip 192.168.27.x/24 192.168.27.1
@@ -165,7 +160,7 @@ Echemos un vistazo a los brillantes componentes que forman esta red intergaláct
     - Direccion MAC: 00:50:79:66:68:01
 
 
-#### VPC Nivel 2 
+### VPC Nivel 2 
 - Paso 1 - Asignar direccion IP:
     - Ingresar a la maquina VPC8
     - Ingresar Comando: ip 192.168.27.x/24 192.168.27.1
@@ -186,7 +181,7 @@ Echemos un vistazo a los brillantes componentes que forman esta red intergaláct
     - Máscara de Subred: 255.255.255.0
     - Direccion MAC: 00:50:79:66:68:05
 
-#### VPC Nivel 3 
+### VPC Nivel 3 
 - Paso 1 - Asignar direccion IP:
     - Ingresar a la maquina VPC8
     - Ingresar Comando: ip 192.168.27.x/24 192.168.27.1
