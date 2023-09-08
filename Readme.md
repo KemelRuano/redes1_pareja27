@@ -2,7 +2,6 @@
 # Facultad de Ingenieria
 # Escuela de Ciencias y Sistemas
 # Laboratorio de redes de computadoras 1 
-## Practica 1
 
 Pareja 27 - Integrantes  :
 
