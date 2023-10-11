@@ -155,7 +155,7 @@
     - Máscara de Subred: 255.255.255.0
 
 
-## Sección 3: Comandos ⌨️
+## Sección 4: Comandos ⌨️
 
 ### Comandos Utilizados - Ruta Estatica
 
@@ -291,7 +291,9 @@
         - Es equivalente a 255.255.255.0
     - Donde 0.1 indica Gateway
 
-### Comandos para verificacion:
+
+## Sección 5: Comandos para verificacion ⌨️
+
 ##### Verificacion de PAGP & LACP
 - show etherchannel summary
 - show pagp neighbor
